@@ -4,8 +4,8 @@
   "description": "Design System Primitives using Styled Components",
   "main": "index.js",
   "scripts": {
-    "start": "npx styleguidist server",
-    "docs": "npx styleguidist build",
+    "start": "styleguidist server --config site/styleguide.config.js",
+    "docs": "styleguidist build --config site/styleguide.config.js",
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "lint": "eslint ./src",
