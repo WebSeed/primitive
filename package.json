@@ -28,6 +28,11 @@
     "url": "https://github.com/WebSeed/primitive/issues"
   },
   "homepage": "https://github.com/WebSeed/primitive#readme",
+  "jest": {
+    "roots": [
+      "./src"
+    ]
+  },
   "peerDependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
