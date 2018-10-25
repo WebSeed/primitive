@@ -33,6 +33,14 @@
   "jest": {
     "roots": [
       "./src"
+    ],
+    "setupFiles": [
+      "./src/__tests__/__setup__/enzyme.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__mocks__/",
+      "/__setup__/"
     ]
   },
   "peerDependencies": {
