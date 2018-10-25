@@ -4,6 +4,8 @@
   "description": "Design System Primitives using Styled Components",
   "main": "index.js",
   "scripts": {
+    "start": "npx styleguidist server",
+    "docs": "npx styleguidist build",
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "lint": "eslint ./src",
@@ -48,6 +50,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "enzyme-to-json": "^3.3.4",
