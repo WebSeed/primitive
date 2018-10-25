@@ -7,11 +7,6 @@
   },
   "rules": {
     "semi": [2, "never"],
-    "react/jsx-filename-extension": [
-      "error",
-      { "extensions": [".js", ".jsx"] }
-    ],
-    "react/prefer-stateless-function": 0,
-    "no-useless-constructor": 0
+    "import/prefer-default-export": "off"
   }
 }
